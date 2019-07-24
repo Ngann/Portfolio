@@ -7,6 +7,7 @@ django-admin startproject portfolio
 
 create app: app name should be plural
 django-admin startapp jobs
+- go to settings.py to add jobs app
 
 run server:
 python3 manage.py runserver
