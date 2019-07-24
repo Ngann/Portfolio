@@ -11,3 +11,6 @@ django-admin startapp jobs
 
 run server:
 python3 manage.py runserver
+
+Url Paths:
+urls.py 
