@@ -28,7 +28,28 @@ Enter it again:
 postgres=# CREATE DATABASE portfoliodb;
 CREATE DATABASE
 
+Database migration:
+- Update models.py and run migration
+ python3 manage.py makemigrations 
+Migrations for 'jobs':
+  jobs/migrations/0001_initial.py
+    - Create model Job
 
+Database migrate:
+python3 manage.py migrate
+- ready to save information to database from Django
+
+Database: Django Admin
+- localhost:8000/admin/
+- allows us to work with database via local host
+- needs a user and password:
+    - :portfolio-project $ python3 manage.py createsuperuser
+    - Username (leave blank to use 'cereal'): ngan
+    - Email address:                
+    - Password: 
+    - Password (again): 
+    - Superuser created successfully.
+- Now you should be able to log into the admin portal using the credential. 
 
 
 error:
