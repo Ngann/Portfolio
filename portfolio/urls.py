@@ -19,5 +19,5 @@ import jobs.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url('home', jobs.views.home, name='home'),
+    url('', jobs.views.home, name='home'),
 ]
