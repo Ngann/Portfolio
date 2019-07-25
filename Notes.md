@@ -51,6 +51,10 @@ Database: Django Admin
     - Superuser created successfully.
 - Now you should be able to log into the admin portal using the credential. 
 
+Static files: run to find any new static files add it to a static folder at the top level.
+- all static file in all apps, must be combines to on static folder
+python3 manage.py collectstatic
+
 
 error:
 pip3 install pillow
